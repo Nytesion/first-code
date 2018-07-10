@@ -1,32 +1,18 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+int main() {
+	cout << "Hello World" << endl;
+    cout << "/\\"<< endl;
+    cout << "||" << endl;
+    cout << "My name is AT, and I am 15" << endl;
+    int yuh = 2;
+    double yah = 25.5;
+    int whip = 15;
+    cout << yah << endl;
+    cout << yuh << endl;
+    char yeet = 'A';
+    char yeh = 'T';
+    cout << "My name is " << yeet << yeh << ", and I am " << whip;
+	return 0;
+}
